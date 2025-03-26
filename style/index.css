@@ -1,0 +1,51 @@
+.center-logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+}
+
+.center {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align:center;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+}
+.center-content{
+  align-content: center;
+}
+.center-width-800{
+  width: 800px;
+  text-align: center;
+}
+
+.button{
+  align-content: center;
+  border: 1px solid black;
+  height: 40px;
+  background-color: blueviolet;
+  color:azure;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.view {
+  border: 2px solid red;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 3px solid green;
+}
